@@ -9,6 +9,7 @@ body {
 	height: 1000px;
 	margin: 0 auto;
 	padding: 0;
+	text-align: justify;
 }
 
 #header{
@@ -26,10 +27,16 @@ body {
 	height: 350px;
 }
 
+#content  * {
+	margin-left: 350px;
+}
+
+
 #bar1{
 	width: 300px;
 	height: 300px;
 	float: left;
+	overflow: hidden;			
 }
 
 #bar2{
@@ -37,6 +44,7 @@ body {
 	height: 300px;
 	float: left;
 	margin-left: 50px;
+	overflow: hidden;			
 }
 
 #bar3{
@@ -44,6 +52,7 @@ body {
 	height: 300px;
 	float: left;
 	margin-left: 50px;
+	overflow: hidden;			
 }
 
 #footer{
