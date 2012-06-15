@@ -32,14 +32,14 @@ body {
 }
 
 
-#bar1{
+#box1{
 	width: 300px;
 	height: 300px;
 	float: left;
 	overflow: hidden;			
 }
 
-#bar2{
+#box2{
 	width: 300px;
 	height: 300px;
 	float: left;
@@ -47,7 +47,7 @@ body {
 	overflow: hidden;			
 }
 
-#bar3{
+#box3{
 	width: 300px;
 	height: 300px;
 	float: left;
