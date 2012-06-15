@@ -77,6 +77,11 @@ h2 {
 	float: left;
 }
 
+#nav a:hover {
+	background-color: #696969;
+	color: #DEDEDE;
+}
+
 #nav a:last-child {
 	margin-right: 0;
 }
