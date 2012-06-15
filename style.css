@@ -3,3 +3,11 @@ body {
 	padding: 0;
 	background: #F0F0F2;
 }
+
+#container {
+	width: 1000px;
+	height: 1000px;
+	margin: 0;
+	padding: 0;
+	background: #F0F0F2;
+}
