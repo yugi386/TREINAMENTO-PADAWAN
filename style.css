@@ -5,7 +5,7 @@ body {
 }
 
 div  {
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 
 h1, h2 {
@@ -35,16 +35,42 @@ h2 {
 }
 
 #header .web{
-	width: 40px;
-	height: 40px;
+	width: 36px;
+	height: 36px;
 	float: right;
-	margin-left: 10px;
-	margin-top: 5px;
+	margin-left: 15px;
+	margin-top: 10px;
 }
 
 #nav{
 	width: 1000px;
 	height: 75px;
+}
+
+#nav ul {
+	margin-left: 430px;
+	padding: 0;
+	list-style: none;
+}
+
+#nav a {
+	display: block;
+	margin-right: 35px;
+	width: 90px;
+	padding: 6px 10px;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-weight: bold;
+	text-align: center;
+	color: #696969;
+	background-color: #DEDEDE;
+	border: 3px solid #FFFFFF;
+	border-radius: 8px;
+	float: left;
+}
+
+#nav a:last-child {
+	margin: 0;
 }
 
 #content{
