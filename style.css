@@ -109,5 +109,39 @@ h2 {
 #footer{
 	width: 1000px;
 	height: 125px;
+	padding: 0;
 	clear: both;
 }
+
+#footer ul {
+	margin-left: 0px;
+	padding: 0;
+	list-style: none;
+}
+
+#footer a {
+	display: block;
+	margin: 0;
+	padding-top: 40px;
+	padding-left: 8px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: normal;
+	text-align: center;
+	color: #000000;
+	float: left;
+	letter-spacing: 1px;
+}
+
+#footer li:before{
+	content: " / ";
+}
+
+#footer li.ini:before{
+	content: none;
+}
+
+#footer a:first-child {
+	padding-left: 0;
+}
+
