@@ -59,7 +59,7 @@ img {
 }
 
 #nav ul {
-	margin-left: 430px;
+	margin-left: 395px; /* no IE 8 tem que ser assim para funcionar*/ 
 	padding: 0;
 	list-style: none;
 }
