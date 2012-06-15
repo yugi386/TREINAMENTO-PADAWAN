@@ -34,6 +34,14 @@ h2 {
 	height: 50px;
 }
 
+#header .web{
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
 #nav{
 	width: 1000px;
 	height: 75px;
