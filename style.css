@@ -4,12 +4,29 @@ body {
 	background: #F0F0F2;
 }
 
+div  {
+	margin-bottom: 10px;
+}
+
+h1, h2 {
+	text-align: left;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
 #container {
 	width: 1000px;
-	height: 1000px;
+	height: auto;
 	margin: 0 auto;
-	padding: 0;
 	text-align: justify;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 14px;
 }
 
 #header{
@@ -24,7 +41,7 @@ body {
 
 #content{
 	width: 1000px;
-	height: 350px;
+	height: auto;
 }
 
 #content  * {
@@ -36,7 +53,7 @@ body {
 	width: 300px;
 	height: 300px;
 	float: left;
-	overflow: hidden;			
+	overflow: hidden;	
 }
 
 #box2{
@@ -58,4 +75,5 @@ body {
 #footer{
 	width: 1000px;
 	height: 125px;
+	clear: both;
 }
