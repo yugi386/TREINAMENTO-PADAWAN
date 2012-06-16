@@ -21,7 +21,7 @@ h2 {
 }
 
 img {
-	border: none; /* se nao colocar no IE 8 apresenta bordas nas imagens PNG */
+	border: none; 
 }
 
 #container {
@@ -59,7 +59,7 @@ img {
 }
 
 #nav ul {
-	margin-left: 430px;
+	margin-left: 430px; 
 	padding: 0;
 	list-style: none;
 }
@@ -67,7 +67,8 @@ img {
 #nav a {
 	display: block;
 	margin-top: 20px;
-	margin-right: 35px;
+	margin-left: 35px;
+	margin-right: 0px;
 	width: 90px;
 	padding: 6px 10px;
 	text-decoration: none;
@@ -86,8 +87,8 @@ img {
 	color: #DEDEDE;
 }
 
-#nav a:last-child {
-	margin-right: 0;
+#nav a:first-child {
+	margin-left: 0;
 }
 
 #content{
