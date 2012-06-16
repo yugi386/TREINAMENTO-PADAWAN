@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: #F0F0F2;
+	background: #F0F0F2 url("img/fundo.png");
 }
 
 div  {
